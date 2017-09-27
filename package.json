@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/aldoso/webpack-tutorial#readme",
   "dependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-env": "^1.6.0",
     "webpack": "^1.13.2"
   }
 }

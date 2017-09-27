@@ -1,1 +1,1 @@
-module.exports = "tempus fugit"
+module.exports = "added babel with env"

@@ -7,6 +7,20 @@ module.exports = {
   output: {
     path:'dist',
     filename: 'bundle.js'
+  },
+  //make transformations
+  module: {
+    loaders: [
+      {
+        //test for any .js file
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        loader: 'babel-loader',
+        query: {
+          presets:['env']
+        }
+      }
+    ]
   }
 
 }

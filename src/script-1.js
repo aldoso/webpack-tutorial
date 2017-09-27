@@ -1,4 +1,4 @@
-var message = require('./script-2')
+const message = require('./script-2')
 alert(message)
 
 // go to terminal and type:
