@@ -10,7 +10,7 @@ module.exports = {
   },
   //make transformations
   module: {
-    loaders: [
+    loaders: [ //Babel Loader
       {
         //test for any .js file
         test: /\.js$/,
@@ -19,7 +19,12 @@ module.exports = {
         query: {
           presets:['env']
         }
-      }
+      }, //end of babel loader
+
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader', //using both in the same time
+      }, //end of css and style loader
     ]
   }
 

@@ -1,1 +1,1 @@
-module.exports = "added babel with env"
+module.exports = "this line is added via webpack"
