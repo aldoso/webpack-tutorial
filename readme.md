@@ -1,1 +1,0 @@
-copy code (git checkout) from each lesson
