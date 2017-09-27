@@ -1,22 +1,22 @@
 {
-  "name": "webpack-playlist",
+  "name": "webpack-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "creating automation: the webpack.js file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/webpack-playlist.git"
+    "url": "git+https://github.com/aldoso/webpack-tutorial.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/webpack-playlist/issues"
+    "url": "https://github.com/aldoso/webpack-tutorial/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/webpack-playlist#readme",
+  "homepage": "https://github.com/aldoso/webpack-tutorial#readme",
   "dependencies": {
-    "webpack": "^3.6.0"
+    "webpack": "^1.13.2"
   }
 }
