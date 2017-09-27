@@ -25,6 +25,11 @@ module.exports = {
         test: /\.css$/,
         loader: 'style-loader!css-loader', //using both in the same time
       }, //end of css and style loader
+
+      {
+        test: /\.sass$/,
+        loader: 'style-loader!css-loader!sass-loader', //using both in the same time
+      }, //end of SASS and style loader
     ]
   }
 
